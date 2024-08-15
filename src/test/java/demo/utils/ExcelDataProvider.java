@@ -10,7 +10,15 @@ public class ExcelDataProvider {
         System.out.println("Fetching excel file from "+fileLocation);
         return ExcelReaderUtil.readExcelData(fileLocation);
     }
-    public static void main(String args[]){
-        excelData();
+    public static void main(String[] args){
+        Object[][] excelData = excelData();
+
+        for (Object[] objArr : excelData){
+            for(Object obj : objArr){
+                System.out.println("Test - " + obj);
+            }
+        }
+
+
     }
 }

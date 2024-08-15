@@ -1,0 +1,1032 @@
+{
+    "actions": [
+        {
+            "COMMAND": null,
+            "RESPONSE": null
+        },
+        {
+            "COMMAND": "[1723729923.859][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND InitSession {\"capabilities\": {\"firstMatch\": [ {\"browserName\": \"chrome\",\"goog:chromeOptions\": {\"args\": [ \"--remote-allow-origins=*\" ],\"binary\": \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\"extensions\": [  ]},\"goog:loggingPrefs\": {\"browser\": \"ALL\",\"driver\": \"ALL\"}} ]}}",
+            "RESPONSE": "[1723729924.840][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE InitSession {\"capabilities\": {\"acceptInsecureCerts\": false,\"browserName\": \"chrome\",\"browserVersion\": \"127.0.6533.101\",\"chrome\": {\"chromedriverVersion\": \"127.0.6533.119 (bdef6783a05f0b3f885591e7d2c7b2aec1a89dea-refs/branch-heads/6533@{#1999})\",\"userDataDir\": \"C:\\\\Users\\\\sharm\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir4120_1657172103\"},\"fedcm:accounts\": true,\"goog:chromeOptions\": {\"debuggerAddress\": \"localhost:56133\"},\"networkConnectionEnabled\": false,\"pageLoadStrategy\": \"normal\",\"platformName\": \"windows\",\"proxy\": {},\"setWindowRect\": true,\"strictFileInteractability\": false,\"timeouts\": {\"implicit\": 0,\"pageLoad\": 300000,\"script\": 30000},\"unhandledPromptBehavior\": \"dismiss and notify\",\"webauthn:extension:credBlob\": true,\"webauthn:extension:largeBlob\": true,\"webauthn:extension:minPinLength\": true,\"webauthn:extension:prf\": true,\"webauthn:virtualAuthenticators\": true},\"sessionId\": \"38e03b2cda365b7e59e11abb6ee6e8d6\"}"
+        },
+        {
+            "COMMAND": "[1723729925.035][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND MaximizeWindow {}",
+            "RESPONSE": "[1723729925.072][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE MaximizeWindow {\"height\": 832,\"width\": 1552,\"x\": -8,\"y\": -8}"
+        },
+        {
+            "COMMAND": "[1723729925.093][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1723729929.120][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1723729929.124][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetUrl {}",
+            "RESPONSE": "[1723729929.313][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetUrl \"https://www.youtube.com/\""
+        },
+        {
+            "COMMAND": "[1723729929.325][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//a[text()='About']\"}",
+            "RESPONSE": "[1723729929.400][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.1A0F3201CD32014399F2B1D8AD440E30.e.23\"}"
+        },
+        {
+            "COMMAND": "[1723729929.457][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND ClickElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.1A0F3201CD32014399F2B1D8AD440E30.e.23\"}",
+            "RESPONSE": "[1723729930.421][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1723729930.427][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//section[@class='ytabout__content']/h1\"}",
+            "RESPONSE": "[1723729930.447][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.F0D83C3980443AD398E89BC1641CFDCB.e.3\"}"
+        },
+        {
+            "COMMAND": "[1723729930.451][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"(//p[@class='lb-font-display-3 lb-font-color-text-primary'])[1]\"}",
+            "RESPONSE": "[1723729930.465][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.F0D83C3980443AD398E89BC1641CFDCB.e.4\"}"
+        },
+        {
+            "COMMAND": "[1723729930.469][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"(//p[@class='lb-font-display-3 lb-font-color-text-primary'])[2]\"}",
+            "RESPONSE": "[1723729930.481][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.F0D83C3980443AD398E89BC1641CFDCB.e.5\"}"
+        },
+        {
+            "COMMAND": "[1723729930.484][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.F0D83C3980443AD398E89BC1641CFDCB.e.3\"}",
+            "RESPONSE": "[1723729930.498][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"About YouTube\""
+        },
+        {
+            "COMMAND": "[1723729930.501][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.F0D83C3980443AD398E89BC1641CFDCB.e.4\"}",
+            "RESPONSE": "[1723729930.508][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Our mission is to give everyone a voice and show them the world.\""
+        },
+        {
+            "COMMAND": "[1723729930.512][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.F0D83C3980443AD398E89BC1641CFDCB.e.5\"}",
+            "RESPONSE": "[1723729930.518][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"We believe that everyone deserves to have a voice, and that the world is a better place when we listen, share and build community through our stories.\""
+        },
+        {
+            "COMMAND": "[1723729930.523][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1723729932.633][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1723729932.640][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//yt-formatted-string[text()='Movies']\"}",
+            "RESPONSE": "[1723729932.721][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.00B8F9D47CCA35DC421D5484078E1F8A.e.13\"}"
+        },
+        {
+            "COMMAND": "[1723729932.726][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND ClickElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.00B8F9D47CCA35DC421D5484078E1F8A.e.13\"}",
+            "RESPONSE": "[1723729932.977][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1723729937.982][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"(//div[@class='yt-spec-touch-feedback-shape__fill'])[7]\"}",
+            "RESPONSE": "[1723729937.996][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.00B8F9D47CCA35DC421D5484078E1F8A.e.37\"}"
+        },
+        {
+            "COMMAND": "[1723729937.999][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND ClickElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.00B8F9D47CCA35DC421D5484078E1F8A.e.37\"}",
+            "RESPONSE": "[1723729938.152][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1723729939.166][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND ClickElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.00B8F9D47CCA35DC421D5484078E1F8A.e.37\"}",
+            "RESPONSE": "[1723729939.201][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1723729940.211][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND ClickElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.00B8F9D47CCA35DC421D5484078E1F8A.e.37\"}",
+            "RESPONSE": "[1723729940.248][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1723729940.252][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"(//p[@class='style-scope ytd-badge-supported-renderer'])[32]\"}",
+            "RESPONSE": "[1723729940.280][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.00B8F9D47CCA35DC421D5484078E1F8A.e.49\"}"
+        },
+        {
+            "COMMAND": "[1723729940.284][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.00B8F9D47CCA35DC421D5484078E1F8A.e.49\"}",
+            "RESPONSE": "[1723729940.311][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"U\""
+        },
+        {
+            "COMMAND": "[1723729950.325][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[contains(text(),'Animation')]\"}",
+            "RESPONSE": "[1723729950.355][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.00B8F9D47CCA35DC421D5484078E1F8A.e.52\"}"
+        },
+        {
+            "COMMAND": "[1723729950.360][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.00B8F9D47CCA35DC421D5484078E1F8A.e.52\"}",
+            "RESPONSE": "[1723729950.371][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Animation \u2022 2024\""
+        },
+        {
+            "COMMAND": "[1723729950.375][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1723729951.567][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1723729951.569][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//yt-formatted-string[text()='Music']\"}",
+            "RESPONSE": "[1723729951.703][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//yt-formatted-string[text()='Music']\"}(Session info: chrome=127.0.6533.101)"
+        },
+        {
+            "COMMAND": "[1723729952.241][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//yt-formatted-string[text()='Music']\"}",
+            "RESPONSE": "[1723729952.253][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.6DAE8240FD7A4085AD66CA64D19D94EF.e.70\"}"
+        },
+        {
+            "COMMAND": "[1723729952.258][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND ClickElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.6DAE8240FD7A4085AD66CA64D19D94EF.e.70\"}",
+            "RESPONSE": "[1723729952.343][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1723729953.383][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"(//div[@class='yt-spec-touch-feedback-shape__fill'])[8]\"}",
+            "RESPONSE": "[1723729953.402][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.6DAE8240FD7A4085AD66CA64D19D94EF.e.101\"}"
+        },
+        {
+            "COMMAND": "[1723729953.408][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND ClickElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.6DAE8240FD7A4085AD66CA64D19D94EF.e.101\"}",
+            "RESPONSE": "[1723729953.928][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1723729954.944][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND ClickElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.6DAE8240FD7A4085AD66CA64D19D94EF.e.101\"}",
+            "RESPONSE": "[1723729954.994][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1723729955.999][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND ClickElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.6DAE8240FD7A4085AD66CA64D19D94EF.e.101\"}",
+            "RESPONSE": "[1723729956.051][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1723729958.066][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//*[@id=\\\"items\\\"]/ytd-compact-station-renderer[11]/div/a/h3\"}",
+            "RESPONSE": "[1723729958.099][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.6DAE8240FD7A4085AD66CA64D19D94EF.e.113\"}"
+        },
+        {
+            "COMMAND": "[1723729960.118][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.6DAE8240FD7A4085AD66CA64D19D94EF.e.113\"}",
+            "RESPONSE": "[1723729960.128][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"New R&B\""
+        },
+        {
+            "COMMAND": "[1723729964.151][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"(//p[@id='video-count-text'])[11]\"}",
+            "RESPONSE": "[1723729964.170][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.6DAE8240FD7A4085AD66CA64D19D94EF.e.114\"}"
+        },
+        {
+            "COMMAND": "[1723729966.183][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.6DAE8240FD7A4085AD66CA64D19D94EF.e.114\"}",
+            "RESPONSE": "[1723729966.189][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"\""
+        },
+        {
+            "COMMAND": "[1723729966.199][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1723729967.480][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1723729967.485][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//yt-formatted-string[text()='News']\"}",
+            "RESPONSE": "[1723729967.585][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//yt-formatted-string[text()='News']\"}(Session info: chrome=127.0.6533.101)"
+        },
+        {
+            "COMMAND": "[1723729968.094][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//yt-formatted-string[text()='News']\"}",
+            "RESPONSE": "[1723729968.132][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.132\"}"
+        },
+        {
+            "COMMAND": "[1723729968.138][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND ClickElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.132\"}",
+            "RESPONSE": "[1723729968.213][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1723729968.218][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//*[text()='Latest news posts']\"}",
+            "RESPONSE": "[1723729968.256][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Latest news posts']\"}(Session info: chrome=127.0.6533.101)"
+        },
+        {
+            "COMMAND": "[1723729968.762][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//*[text()='Latest news posts']\"}",
+            "RESPONSE": "[1723729972.204][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.134\"}"
+        },
+        {
+            "COMMAND": "[1723729972.464][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElements {\"using\": \"xpath\",\"value\": \"//ytd-post-renderer[@class='style-scope ytd-rich-item-renderer']\"}",
+            "RESPONSE": "[1723729972.593][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElements [ {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.187\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.188\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.189\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.190\"} ]"
+        },
+        {
+            "COMMAND": "[1723729972.598][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.187\",\"using\": \"css selector\",\"value\": \"#header\"}",
+            "RESPONSE": "[1723729972.703][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.191\"}"
+        },
+        {
+            "COMMAND": "[1723729972.708][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.187\",\"using\": \"css selector\",\"value\": \"#body\"}",
+            "RESPONSE": "[1723729972.832][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.192\"}"
+        },
+        {
+            "COMMAND": "[1723729972.834][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.191\"}",
+            "RESPONSE": "[1723729972.862][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Tv9 Kannada\\n\u2022\\n4 minutes ago\""
+        },
+        {
+            "COMMAND": "[1723729972.865][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.192\"}",
+            "RESPONSE": "[1723729972.899][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"\u0cae\u0cbe\u0ca1\u0cc6\u0cb2\u0ccd \u0c9c\u0cca\u0ca4\u0cc6 \u0cb8\u0cbf\u0c95\u0ccd\u0c95\u0cbf\u0cac\u0cbf\u0ca6\u0ccd\u0ca6 \u0caa\u0cbe\u0c82\u0ca1\u0ccd\u0caf! Video Link\u25bahttps://youtu.be/qZDRrDczNck\""
+        },
+        {
+            "COMMAND": "[1723729972.902][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.187\",\"using\": \"css selector\",\"value\": \"#vote\\\\-count\\\\-middle\"}",
+            "RESPONSE": "[1723729972.915][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.193\"}"
+        },
+        {
+            "COMMAND": "[1723729972.917][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.193\"}",
+            "RESPONSE": "[1723729972.960][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"7\""
+        },
+        {
+            "COMMAND": "[1723729972.963][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.188\",\"using\": \"css selector\",\"value\": \"#header\"}",
+            "RESPONSE": "[1723729972.980][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.194\"}"
+        },
+        {
+            "COMMAND": "[1723729972.983][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.188\",\"using\": \"css selector\",\"value\": \"#body\"}",
+            "RESPONSE": "[1723729973.019][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.195\"}"
+        },
+        {
+            "COMMAND": "[1723729973.022][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.194\"}",
+            "RESPONSE": "[1723729973.098][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Asianet Suvarna News\\n\u2022\\n2 hours ago\""
+        },
+        {
+            "COMMAND": "[1723729973.101][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.195\"}",
+            "RESPONSE": "[1723729973.128][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"\u0cb5\u0cc0\u0c95\u0ccd\u0cb7\u0cbf\u0cb8\u0cbf \u0ca8\u0ccd\u0caf\u0cc2\u0cb8\u0ccd\u200c 360 \u0cb8\u0c82\u0c9c\u0cc6 6\u0c95\u0ccd\u0c95\u0cc6 #NarendraModi #UniformCivilCode #KarnatakaCongress #News360 #AsianetSuvarnaNews\""
+        },
+        {
+            "COMMAND": "[1723729973.132][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.188\",\"using\": \"css selector\",\"value\": \"#vote\\\\-count\\\\-middle\"}",
+            "RESPONSE": "[1723729973.147][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.196\"}"
+        },
+        {
+            "COMMAND": "[1723729973.150][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.196\"}",
+            "RESPONSE": "[1723729973.193][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"1.4K\""
+        },
+        {
+            "COMMAND": "[1723729973.196][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.194\"}",
+            "RESPONSE": "[1723729973.263][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Asianet Suvarna News\\n\u2022\\n2 hours ago\""
+        },
+        {
+            "COMMAND": "[1723729973.266][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.189\",\"using\": \"css selector\",\"value\": \"#header\"}",
+            "RESPONSE": "[1723729973.322][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.198\"}"
+        },
+        {
+            "COMMAND": "[1723729973.325][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.189\",\"using\": \"css selector\",\"value\": \"#body\"}",
+            "RESPONSE": "[1723729973.388][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.199\"}"
+        },
+        {
+            "COMMAND": "[1723729973.390][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.198\"}",
+            "RESPONSE": "[1723729973.403][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"News18 Kannada\\n\u2022\\n5 hours ago (edited)\""
+        },
+        {
+            "COMMAND": "[1723729973.406][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.199\"}",
+            "RESPONSE": "[1723729973.493][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"78th Independence Day: Narendra Modi | \u0cb5\u0cbf\u0ca6\u0ccd\u0caf\u0cbe\u0cb0\u0ccd\u0ca5\u0cbf\u0c97\u0cb3\u0cc1 \u0cb6\u0cbf\u0c95\u0ccd\u0cb7\u0ca3\u0c95\u0ccd\u0c95\u0cbe\u0c97\u0cbf \u0cb5\u0cbf\u0ca6\u0cc7\u0cb6\u0c95\u0ccd\u0c95\u0cc6 \u0ca4\u0cc6\u0cb0\u0cb3\u0cc1\u0cb5 \u0c85\u0ca8\u0cbf\u0cb5\u0cbe\u0cb0\u0ccd\u0caf\u0ca4\u0cc6\u0caf\ufffd...\""
+        },
+        {
+            "COMMAND": "[1723729973.496][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.189\",\"using\": \"css selector\",\"value\": \"#vote\\\\-count\\\\-middle\"}",
+            "RESPONSE": "[1723729973.503][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.200\"}"
+        },
+        {
+            "COMMAND": "[1723729973.506][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.200\"}",
+            "RESPONSE": "[1723729973.543][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"118\""
+        },
+        {
+            "COMMAND": "[1723729973.545][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.190\",\"using\": \"css selector\",\"value\": \"#header\"}",
+            "RESPONSE": "[1723729973.551][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.201\"}"
+        },
+        {
+            "COMMAND": "[1723729973.554][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.190\",\"using\": \"css selector\",\"value\": \"#body\"}",
+            "RESPONSE": "[1723729973.601][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.202\"}"
+        },
+        {
+            "COMMAND": "[1723729973.604][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.201\"}",
+            "RESPONSE": "[1723729973.751][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"\""
+        },
+        {
+            "COMMAND": "[1723729973.754][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.202\"}",
+            "RESPONSE": "[1723729973.831][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"\""
+        },
+        {
+            "COMMAND": "[1723729973.833][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.190\",\"using\": \"css selector\",\"value\": \"#vote\\\\-count\\\\-middle\"}",
+            "RESPONSE": "[1723729973.868][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.203\"}"
+        },
+        {
+            "COMMAND": "[1723729973.871][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.203\"}",
+            "RESPONSE": "[1723729973.878][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"\""
+        },
+        {
+            "COMMAND": "[1723729973.880][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.38B41A8269DC78561AA5A42FED54E7E4.e.201\"}",
+            "RESPONSE": "[1723729973.887][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"\""
+        },
+        {
+            "COMMAND": "[1723729974.399][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1723729975.650][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1723729975.657][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//input[@id='search']\"}",
+            "RESPONSE": "[1723729975.792][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.209\"}"
+        },
+        {
+            "COMMAND": "[1723729975.796][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND TypeElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.209\",\"text\": \"Movies\",\"value\": [ \"M\", \"o\", \"v\", \"i\", \"e\", \"s\" ]}",
+            "RESPONSE": "[1723729976.275][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE TypeElement"
+        },
+        {
+            "COMMAND": "[1723729976.280][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND TypeElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.209\",\"text\": \"\ue007\",\"value\": [ \"\ue007\" ]}",
+            "RESPONSE": "[1723729976.403][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE TypeElement"
+        },
+        {
+            "COMMAND": "[1723729976.406][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//ytd-item-section-renderer[@class='style-scope ytd-section-list-renderer']\"}",
+            "RESPONSE": "[1723729976.479][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//ytd-item-section-renderer[@class='style-scope ytd-section-list-renderer']\"}(Session info: chrome=127.0.6533.101)"
+        },
+        {
+            "COMMAND": "[1723729976.996][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//ytd-item-section-renderer[@class='style-scope ytd-section-list-renderer']\"}",
+            "RESPONSE": "[1723729977.308][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.225\"}"
+        },
+        {
+            "COMMAND": "[1723729977.314][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElements {\"using\": \"xpath\",\"value\": \"//ytd-video-renderer[@class='style-scope ytd-item-section-renderer']\"}",
+            "RESPONSE": "[1723729977.548][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElements [ {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.235\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.236\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.237\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.238\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.239\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.240\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.241\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.242\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.243\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.244\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.245\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.246\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.247\"} ]"
+        },
+        {
+            "COMMAND": "[1723729977.551][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.235\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729977.851][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.250\"}"
+        },
+        {
+            "COMMAND": "[1723729977.853][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.250\"}",
+            "RESPONSE": "[1723729977.930][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"How to Sneak Snacks Into the Movies! BEST WAYS OF SNEAKING FOOD\""
+        },
+        {
+            "COMMAND": "[1723729977.934][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.235\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729977.959][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.251\"}"
+        },
+        {
+            "COMMAND": "[1723729977.961][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.251\"}",
+            "RESPONSE": "[1723729977.975][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"635 watching\""
+        },
+        {
+            "COMMAND": "[1723729977.979][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.236\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729977.990][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.252\"}"
+        },
+        {
+            "COMMAND": "[1723729977.992][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.252\"}",
+            "RESPONSE": "[1723729978.000][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Ala Vaikunthapurramuloo Hindi Dubbed Movie | Latest Hollywood Action Movie|New South Indian Movies\""
+        },
+        {
+            "COMMAND": "[1723729978.003][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.236\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729978.014][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.253\"}"
+        },
+        {
+            "COMMAND": "[1723729978.016][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.253\"}",
+            "RESPONSE": "[1723729978.025][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"210K views\""
+        },
+        {
+            "COMMAND": "[1723729978.027][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.237\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729978.036][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.254\"}"
+        },
+        {
+            "COMMAND": "[1723729978.038][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.254\"}",
+            "RESPONSE": "[1723729978.046][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Kalki New 2024 Released Full Hindi Dubbed Action Movie | Prabhas New Blockbuster South Movie 2024\""
+        },
+        {
+            "COMMAND": "[1723729978.048][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.237\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729978.056][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.255\"}"
+        },
+        {
+            "COMMAND": "[1723729978.058][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.255\"}",
+            "RESPONSE": "[1723729978.068][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"16M views\""
+        },
+        {
+            "COMMAND": "[1723729978.070][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.238\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729978.079][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.256\"}"
+        },
+        {
+            "COMMAND": "[1723729978.081][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.256\"}",
+            "RESPONSE": "[1723729978.088][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"John Abraham New Action Hindi Blockbuster Movie 2024 | Vedaa | Independance Day Specal Movie 2024\""
+        },
+        {
+            "COMMAND": "[1723729978.090][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.238\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729978.137][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.257\"}"
+        },
+        {
+            "COMMAND": "[1723729978.140][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.257\"}",
+            "RESPONSE": "[1723729978.150][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"7.3M views\""
+        },
+        {
+            "COMMAND": "[1723729978.152][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.239\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729978.160][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.258\"}"
+        },
+        {
+            "COMMAND": "[1723729978.162][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.258\"}",
+            "RESPONSE": "[1723729978.170][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Vanitha Film Awards 2024 | Full Video | \u0d24\u0d3e\u0d30\u0d2a\u0d4d\u0d2a\u0d4a\u0d32\u0d3f\u0d2e\u0d2f\u0d3f\u0d7d \u0d35\u0d28\u0d3f\u0d24\u0d3e \u0d2b\u0d3f\u0d32\u0d3f\u0d02 \u0d05\u0d35\u0d3e\u0d7c\u0d21\u0d4d\u200c\u0d38\u0d4d...\""
+        },
+        {
+            "COMMAND": "[1723729978.172][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.239\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729978.185][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.259\"}"
+        },
+        {
+            "COMMAND": "[1723729978.187][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.259\"}",
+            "RESPONSE": "[1723729978.195][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"223K views\""
+        },
+        {
+            "COMMAND": "[1723729978.197][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.240\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729978.205][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.260\"}"
+        },
+        {
+            "COMMAND": "[1723729978.207][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.260\"}",
+            "RESPONSE": "[1723729978.215][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Thangalaan Movie Review : Chiyaan Vikram, Malavika Mohan : RatpacCheck : Thangalaan Review Telugu\""
+        },
+        {
+            "COMMAND": "[1723729978.217][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.240\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729978.227][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.261\"}"
+        },
+        {
+            "COMMAND": "[1723729978.228][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.261\"}",
+            "RESPONSE": "[1723729978.237][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"43K views\""
+        },
+        {
+            "COMMAND": "[1723729978.239][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.241\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729978.247][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.262\"}"
+        },
+        {
+            "COMMAND": "[1723729978.250][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.262\"}",
+            "RESPONSE": "[1723729978.257][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"20 OG Movies That Are Coming Back !\""
+        },
+        {
+            "COMMAND": "[1723729978.259][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.241\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729978.267][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.263\"}"
+        },
+        {
+            "COMMAND": "[1723729978.269][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.263\"}",
+            "RESPONSE": "[1723729978.276][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"23K views\""
+        },
+        {
+            "COMMAND": "[1723729978.278][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.242\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729978.288][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.264\"}"
+        },
+        {
+            "COMMAND": "[1723729978.290][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.264\"}",
+            "RESPONSE": "[1723729978.297][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Stree 2 + Vedaa + Khel Khel Mein Movies REVIEW\""
+        },
+        {
+            "COMMAND": "[1723729978.300][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.242\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729978.312][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.265\"}"
+        },
+        {
+            "COMMAND": "[1723729978.315][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.265\"}",
+            "RESPONSE": "[1723729978.323][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"13K views\""
+        },
+        {
+            "COMMAND": "[1723729978.325][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.243\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729978.334][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.266\"}"
+        },
+        {
+            "COMMAND": "[1723729978.335][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.266\"}",
+            "RESPONSE": "[1723729978.342][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Rajasaab No.1 (2024) New Released Full Hindi Dubbed Movie | 2024 South Action Movies Full Movie\""
+        },
+        {
+            "COMMAND": "[1723729978.344][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.243\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729978.351][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.267\"}"
+        },
+        {
+            "COMMAND": "[1723729978.353][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.267\"}",
+            "RESPONSE": "[1723729978.359][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"6.9M views\""
+        },
+        {
+            "COMMAND": "[1723729978.361][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.244\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729978.369][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.268\"}"
+        },
+        {
+            "COMMAND": "[1723729978.370][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.268\"}",
+            "RESPONSE": "[1723729978.376][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Gowri Movie Update | Indrajit Lankesh | Samarjit | \u0cb8\u0ccd\u0caf\u0cbe\u0c82\u0ca1\u0cb2\u0ccd\u200c\u0cb5\u0cc1\u0ca1\u0ccd\u200c\u0c97\u0cc6 \u0cae\u0ca4\u0ccd\u0ca4\u0cc6 \u0c97\u0ca4\u0cb5\u0cc8\u0cad\u0cb5 | Vistara News\""
+        },
+        {
+            "COMMAND": "[1723729978.378][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.244\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729978.385][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.269\"}"
+        },
+        {
+            "COMMAND": "[1723729978.387][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.269\"}",
+            "RESPONSE": "[1723729978.393][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"314 views\""
+        },
+        {
+            "COMMAND": "[1723729978.395][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.245\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729978.402][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.270\"}"
+        },
+        {
+            "COMMAND": "[1723729978.404][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.270\"}",
+            "RESPONSE": "[1723729978.410][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"\ud83d\udd34LIVE:\u0c15\u0c4a\u0c21\u0c3e\u0c32\u0c3f \u0c05\u0c21\u0c4d\u0c21\u0c3e\u0c32\u0c4b \u0c38\u0c40\u0c0e\u0c02 \u0c1a\u0c02\u0c26\u0c4d\u0c30\u0c2c\u0c3e\u0c2c\u0c41 \u0c05\u0c28\u0c4d\u0c28 \u0c15\u0c4d\u0c2f\u0c3e\u0c02\u0c1f\u0c40\u0c28\u0c4d \u0c2a\u0c4d\u0c30\u0c3e\u0c30\u0c02\u0c2d\u0c02 |CM Chandrababu Anna Canteens Reopen|ABN\""
+        },
+        {
+            "COMMAND": "[1723729978.411][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.245\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729978.419][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.271\"}"
+        },
+        {
+            "COMMAND": "[1723729978.421][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.271\"}",
+            "RESPONSE": "[1723729978.428][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"1.1K watching\""
+        },
+        {
+            "COMMAND": "[1723729978.430][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.246\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729978.438][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.272\"}"
+        },
+        {
+            "COMMAND": "[1723729978.439][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.272\"}",
+            "RESPONSE": "[1723729978.445][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Maurh (Full Movie) Ammy Virk | Dev Kharoud | Punjabi Movies 2024 | Latest Punjabi Movies 2024\""
+        },
+        {
+            "COMMAND": "[1723729978.447][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.246\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729978.454][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.273\"}"
+        },
+        {
+            "COMMAND": "[1723729978.457][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.273\"}",
+            "RESPONSE": "[1723729978.465][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"604K views\""
+        },
+        {
+            "COMMAND": "[1723729983.488][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//ytd-item-section-renderer[@class='style-scope ytd-section-list-renderer']\"}",
+            "RESPONSE": "[1723729983.502][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.225\"}"
+        },
+        {
+            "COMMAND": "[1723729983.505][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElements {\"using\": \"xpath\",\"value\": \"//ytd-video-renderer[@class='style-scope ytd-item-section-renderer']\"}",
+            "RESPONSE": "[1723729983.526][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElements [ {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.235\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.236\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.237\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.238\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.239\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.240\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.241\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.242\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.243\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.244\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.245\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.246\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.247\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.276\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.277\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.278\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.279\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.280\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.281\"}, \"...\" ]"
+        },
+        {
+            "COMMAND": "[1723729983.533][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.235\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729983.552][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.250\"}"
+        },
+        {
+            "COMMAND": "[1723729983.554][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.250\"}",
+            "RESPONSE": "[1723729983.563][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"How to Sneak Snacks Into the Movies! BEST WAYS OF SNEAKING FOOD\""
+        },
+        {
+            "COMMAND": "[1723729983.565][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.235\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729983.573][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.251\"}"
+        },
+        {
+            "COMMAND": "[1723729983.575][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.251\"}",
+            "RESPONSE": "[1723729983.581][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"635 watching\""
+        },
+        {
+            "COMMAND": "[1723729983.582][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.236\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729983.590][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.252\"}"
+        },
+        {
+            "COMMAND": "[1723729983.591][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.252\"}",
+            "RESPONSE": "[1723729983.598][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Ala Vaikunthapurramuloo Hindi Dubbed Movie | Latest Hollywood Action Movie|New South Indian Movies\""
+        },
+        {
+            "COMMAND": "[1723729983.599][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.236\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729983.607][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.253\"}"
+        },
+        {
+            "COMMAND": "[1723729983.608][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.253\"}",
+            "RESPONSE": "[1723729983.614][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"210K views\""
+        },
+        {
+            "COMMAND": "[1723729983.616][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.237\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729983.624][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.254\"}"
+        },
+        {
+            "COMMAND": "[1723729983.625][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.254\"}",
+            "RESPONSE": "[1723729983.632][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Kalki New 2024 Released Full Hindi Dubbed Action Movie | Prabhas New Blockbuster South Movie 2024\""
+        },
+        {
+            "COMMAND": "[1723729983.634][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.237\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729983.643][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.255\"}"
+        },
+        {
+            "COMMAND": "[1723729983.645][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.255\"}",
+            "RESPONSE": "[1723729983.651][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"16M views\""
+        },
+        {
+            "COMMAND": "[1723729983.653][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.238\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729983.661][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.256\"}"
+        },
+        {
+            "COMMAND": "[1723729983.662][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.256\"}",
+            "RESPONSE": "[1723729983.670][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"John Abraham New Action Hindi Blockbuster Movie 2024 | Vedaa | Independance Day Specal Movie 2024\""
+        },
+        {
+            "COMMAND": "[1723729983.672][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.238\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729983.680][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.257\"}"
+        },
+        {
+            "COMMAND": "[1723729983.682][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.257\"}",
+            "RESPONSE": "[1723729983.691][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"7.3M views\""
+        },
+        {
+            "COMMAND": "[1723729983.694][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.239\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729983.701][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.258\"}"
+        },
+        {
+            "COMMAND": "[1723729983.703][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.258\"}",
+            "RESPONSE": "[1723729983.710][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Vanitha Film Awards 2024 | Full Video | \u0d24\u0d3e\u0d30\u0d2a\u0d4d\u0d2a\u0d4a\u0d32\u0d3f\u0d2e\u0d2f\u0d3f\u0d7d \u0d35\u0d28\u0d3f\u0d24\u0d3e \u0d2b\u0d3f\u0d32\u0d3f\u0d02 \u0d05\u0d35\u0d3e\u0d7c\u0d21\u0d4d\u200c\u0d38\u0d4d...\""
+        },
+        {
+            "COMMAND": "[1723729983.712][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.239\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729983.721][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.259\"}"
+        },
+        {
+            "COMMAND": "[1723729983.723][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.259\"}",
+            "RESPONSE": "[1723729983.730][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"223K views\""
+        },
+        {
+            "COMMAND": "[1723729983.733][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.240\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729983.741][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.260\"}"
+        },
+        {
+            "COMMAND": "[1723729983.743][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.260\"}",
+            "RESPONSE": "[1723729983.750][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Thangalaan Movie Review : Chiyaan Vikram, Malavika Mohan : RatpacCheck : Thangalaan Review Telugu\""
+        },
+        {
+            "COMMAND": "[1723729983.752][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.240\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729983.761][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.261\"}"
+        },
+        {
+            "COMMAND": "[1723729983.763][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.261\"}",
+            "RESPONSE": "[1723729983.771][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"43K views\""
+        },
+        {
+            "COMMAND": "[1723729983.773][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.241\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729983.782][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.262\"}"
+        },
+        {
+            "COMMAND": "[1723729983.784][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.262\"}",
+            "RESPONSE": "[1723729983.792][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"20 OG Movies That Are Coming Back !\""
+        },
+        {
+            "COMMAND": "[1723729983.794][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.241\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729983.802][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.263\"}"
+        },
+        {
+            "COMMAND": "[1723729983.803][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.263\"}",
+            "RESPONSE": "[1723729983.811][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"23K views\""
+        },
+        {
+            "COMMAND": "[1723729983.813][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.242\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729983.821][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.264\"}"
+        },
+        {
+            "COMMAND": "[1723729983.822][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.264\"}",
+            "RESPONSE": "[1723729983.828][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Stree 2 + Vedaa + Khel Khel Mein Movies REVIEW\""
+        },
+        {
+            "COMMAND": "[1723729983.830][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.242\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729983.837][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.265\"}"
+        },
+        {
+            "COMMAND": "[1723729983.839][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.265\"}",
+            "RESPONSE": "[1723729983.845][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"13K views\""
+        },
+        {
+            "COMMAND": "[1723729983.847][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.243\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729983.854][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.266\"}"
+        },
+        {
+            "COMMAND": "[1723729983.855][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.266\"}",
+            "RESPONSE": "[1723729983.861][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Rajasaab No.1 (2024) New Released Full Hindi Dubbed Movie | 2024 South Action Movies Full Movie\""
+        },
+        {
+            "COMMAND": "[1723729983.863][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.243\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729983.870][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.267\"}"
+        },
+        {
+            "COMMAND": "[1723729983.872][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.267\"}",
+            "RESPONSE": "[1723729983.878][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"6.9M views\""
+        },
+        {
+            "COMMAND": "[1723729983.880][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.244\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729983.887][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.268\"}"
+        },
+        {
+            "COMMAND": "[1723729983.888][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.268\"}",
+            "RESPONSE": "[1723729983.895][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Gowri Movie Update | Indrajit Lankesh | Samarjit | \u0cb8\u0ccd\u0caf\u0cbe\u0c82\u0ca1\u0cb2\u0ccd\u200c\u0cb5\u0cc1\u0ca1\u0ccd\u200c\u0c97\u0cc6 \u0cae\u0ca4\u0ccd\u0ca4\u0cc6 \u0c97\u0ca4\u0cb5\u0cc8\u0cad\u0cb5 | Vistara News\""
+        },
+        {
+            "COMMAND": "[1723729983.897][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.244\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729983.904][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.269\"}"
+        },
+        {
+            "COMMAND": "[1723729983.905][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.269\"}",
+            "RESPONSE": "[1723729983.912][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"314 views\""
+        },
+        {
+            "COMMAND": "[1723729983.914][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.245\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729983.923][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.270\"}"
+        },
+        {
+            "COMMAND": "[1723729983.925][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.270\"}",
+            "RESPONSE": "[1723729983.931][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"\ud83d\udd34LIVE:\u0c15\u0c4a\u0c21\u0c3e\u0c32\u0c3f \u0c05\u0c21\u0c4d\u0c21\u0c3e\u0c32\u0c4b \u0c38\u0c40\u0c0e\u0c02 \u0c1a\u0c02\u0c26\u0c4d\u0c30\u0c2c\u0c3e\u0c2c\u0c41 \u0c05\u0c28\u0c4d\u0c28 \u0c15\u0c4d\u0c2f\u0c3e\u0c02\u0c1f\u0c40\u0c28\u0c4d \u0c2a\u0c4d\u0c30\u0c3e\u0c30\u0c02\u0c2d\u0c02 |CM Chandrababu Anna Canteens Reopen|ABN\""
+        },
+        {
+            "COMMAND": "[1723729983.933][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.245\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729983.940][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.271\"}"
+        },
+        {
+            "COMMAND": "[1723729983.941][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.271\"}",
+            "RESPONSE": "[1723729983.947][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"1.1K watching\""
+        },
+        {
+            "COMMAND": "[1723729983.949][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.246\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729983.956][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.272\"}"
+        },
+        {
+            "COMMAND": "[1723729983.958][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.272\"}",
+            "RESPONSE": "[1723729983.964][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Maurh (Full Movie) Ammy Virk | Dev Kharoud | Punjabi Movies 2024 | Latest Punjabi Movies 2024\""
+        },
+        {
+            "COMMAND": "[1723729983.966][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.246\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729983.974][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.273\"}"
+        },
+        {
+            "COMMAND": "[1723729983.976][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.273\"}",
+            "RESPONSE": "[1723729983.982][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"604K views\""
+        },
+        {
+            "COMMAND": "[1723729983.984][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.247\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729983.993][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.295\"}"
+        },
+        {
+            "COMMAND": "[1723729983.994][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.295\"}",
+            "RESPONSE": "[1723729984.001][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"ALIEN Movie Series RECAP: Complete History to Know Before Alien Romulus\""
+        },
+        {
+            "COMMAND": "[1723729984.003][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.247\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729984.012][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.296\"}"
+        },
+        {
+            "COMMAND": "[1723729984.013][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.296\"}",
+            "RESPONSE": "[1723729984.021][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"118K views\""
+        },
+        {
+            "COMMAND": "[1723729984.023][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.276\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729984.031][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.297\"}"
+        },
+        {
+            "COMMAND": "[1723729984.032][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.297\"}",
+            "RESPONSE": "[1723729984.039][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Top 10 Hollywood Action Movies in Tamil Dubbed | Playtamildub\""
+        },
+        {
+            "COMMAND": "[1723729984.041][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.276\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729984.049][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.298\"}"
+        },
+        {
+            "COMMAND": "[1723729984.050][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.298\"}",
+            "RESPONSE": "[1723729984.057][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"12K views\""
+        },
+        {
+            "COMMAND": "[1723729984.059][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.277\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729984.067][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.299\"}"
+        },
+        {
+            "COMMAND": "[1723729984.068][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.299\"}",
+            "RESPONSE": "[1723729984.077][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"10 Worst Indian Movie Plot Twists That Ruined Movies\""
+        },
+        {
+            "COMMAND": "[1723729984.079][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.277\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729984.088][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.300\"}"
+        },
+        {
+            "COMMAND": "[1723729984.090][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.300\"}",
+            "RESPONSE": "[1723729984.097][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"246K views\""
+        },
+        {
+            "COMMAND": "[1723729984.100][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.278\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729984.108][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.301\"}"
+        },
+        {
+            "COMMAND": "[1723729984.109][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.301\"}",
+            "RESPONSE": "[1723729984.117][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"The Wrong Neighbor 2024 #LMN | [NEW] Lifetime Movies 2024 | Based On A True Story\""
+        },
+        {
+            "COMMAND": "[1723729984.119][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.278\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729984.126][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.302\"}"
+        },
+        {
+            "COMMAND": "[1723729984.128][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.302\"}",
+            "RESPONSE": "[1723729984.134][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"22K views\""
+        },
+        {
+            "COMMAND": "[1723729984.136][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.279\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729984.143][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.303\"}"
+        },
+        {
+            "COMMAND": "[1723729984.145][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.303\"}",
+            "RESPONSE": "[1723729984.151][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Has Jhan Pagli Fas Jabe | Cg Movie 2024 | Chhattisgarhi Full film | Man Qureshi, Anikriti | AVMGANA\""
+        },
+        {
+            "COMMAND": "[1723729984.152][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.279\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729984.159][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.304\"}"
+        },
+        {
+            "COMMAND": "[1723729984.161][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.304\"}",
+            "RESPONSE": "[1723729984.167][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"3.1M views\""
+        },
+        {
+            "COMMAND": "[1723729984.169][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.280\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729984.176][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.305\"}"
+        },
+        {
+            "COMMAND": "[1723729984.177][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.305\"}",
+            "RESPONSE": "[1723729984.183][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Double iSmart Movie Review | Ram, Puri\""
+        },
+        {
+            "COMMAND": "[1723729984.185][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.280\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729984.192][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.306\"}"
+        },
+        {
+            "COMMAND": "[1723729984.193][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.306\"}",
+            "RESPONSE": "[1723729984.199][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"47K views\""
+        },
+        {
+            "COMMAND": "[1723729984.201][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.281\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729984.209][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.307\"}"
+        },
+        {
+            "COMMAND": "[1723729984.210][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.307\"}",
+            "RESPONSE": "[1723729984.216][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Thangalaan Public Review | Thangalaan Movie Review | Thangalaan review | thangalaan | Chiyaan vikram\""
+        },
+        {
+            "COMMAND": "[1723729984.218][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.281\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729984.225][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.308\"}"
+        },
+        {
+            "COMMAND": "[1723729984.226][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.308\"}",
+            "RESPONSE": "[1723729984.232][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"280K views\""
+        },
+        {
+            "COMMAND": "[1723729984.234][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.282\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729984.241][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.309\"}"
+        },
+        {
+            "COMMAND": "[1723729984.242][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.309\"}",
+            "RESPONSE": "[1723729984.248][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Sooryavansham \u2013 Blockbuster Hindi Film | Amitabh Bachchan, Soundarya | Bollywood Movie | \u0938\u0942\u0930\u094d\u092f\u0935\u0902\u0936\u092e\""
+        },
+        {
+            "COMMAND": "[1723729984.250][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.282\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729984.257][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.310\"}"
+        },
+        {
+            "COMMAND": "[1723729984.258][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.49A5132D6A2E9017B45D29AB5AA3CCD5.e.310\"}",
+            "RESPONSE": "[1723729984.264][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"516M views\""
+        },
+        {
+            "COMMAND": "[1723729984.294][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1723729985.366][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1723729985.368][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//input[@id='search']\"}",
+            "RESPONSE": "[1723729985.550][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.316\"}"
+        },
+        {
+            "COMMAND": "[1723729985.554][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND TypeElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.316\",\"text\": \"Music\",\"value\": [ \"M\", \"u\", \"s\", \"i\", \"c\" ]}",
+            "RESPONSE": "[1723729986.055][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE TypeElement"
+        },
+        {
+            "COMMAND": "[1723729986.057][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND TypeElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.316\",\"text\": \"\ue007\",\"value\": [ \"\ue007\" ]}",
+            "RESPONSE": "[1723729986.212][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE TypeElement"
+        },
+        {
+            "COMMAND": "[1723729986.216][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//ytd-item-section-renderer[@class='style-scope ytd-section-list-renderer']\"}",
+            "RESPONSE": "[1723729986.231][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//ytd-item-section-renderer[@class='style-scope ytd-section-list-renderer']\"}(Session info: chrome=127.0.6533.101)"
+        },
+        {
+            "COMMAND": "[1723729986.743][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//ytd-item-section-renderer[@class='style-scope ytd-section-list-renderer']\"}",
+            "RESPONSE": "[1723729987.185][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.332\"}"
+        },
+        {
+            "COMMAND": "[1723729987.187][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElements {\"using\": \"xpath\",\"value\": \"//ytd-video-renderer[@class='style-scope ytd-item-section-renderer']\"}",
+            "RESPONSE": "[1723729987.532][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElements [ {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.335\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.336\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.337\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.338\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.339\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.340\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.341\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.342\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.343\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.344\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.345\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.346\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.347\"} ]"
+        },
+        {
+            "COMMAND": "[1723729987.536][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.335\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729987.791][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.348\"}"
+        },
+        {
+            "COMMAND": "[1723729987.793][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.348\"}",
+            "RESPONSE": "[1723729987.819][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Ibiza Summer Mix 2024 \ud83c\udf53 Best Of Tropical Deep House Music Chill Out Mix 2023 \ud83c\udf53 Chillout Lounge\""
+        },
+        {
+            "COMMAND": "[1723729987.821][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.335\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729987.862][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.349\"}"
+        },
+        {
+            "COMMAND": "[1723729987.864][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.349\"}",
+            "RESPONSE": "[1723729987.928][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"4.9K watching\""
+        },
+        {
+            "COMMAND": "[1723729987.930][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.336\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729987.954][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.350\"}"
+        },
+        {
+            "COMMAND": "[1723729987.956][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.350\"}",
+            "RESPONSE": "[1723729987.967][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Ibiza Summer Mix 2024 \ud83c\udf53 Best Of Tropical Deep House Music Chill Out Mix 2023 \ud83c\udf53 Chillout Lounge\""
+        },
+        {
+            "COMMAND": "[1723729987.969][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.336\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729987.976][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.351\"}"
+        },
+        {
+            "COMMAND": "[1723729987.978][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.351\"}",
+            "RESPONSE": "[1723729987.985][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"1.3K watching\""
+        },
+        {
+            "COMMAND": "[1723729987.986][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.337\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729987.994][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.352\"}"
+        },
+        {
+            "COMMAND": "[1723729987.995][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.352\"}",
+            "RESPONSE": "[1723729988.004][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Thursday Morning Jazz - Relaxing Jazz Music at Cozy Coffee Shop & Soft Bossa Nova for Start the day\""
+        },
+        {
+            "COMMAND": "[1723729988.005][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.337\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729988.013][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.353\"}"
+        },
+        {
+            "COMMAND": "[1723729988.014][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.353\"}",
+            "RESPONSE": "[1723729988.021][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"14K watching\""
+        },
+        {
+            "COMMAND": "[1723729988.022][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.338\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729988.029][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.354\"}"
+        },
+        {
+            "COMMAND": "[1723729988.031][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.354\"}",
+            "RESPONSE": "[1723729988.037][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"TERE HO KE | King & @BellaOfficials | Monopoly Moves\""
+        },
+        {
+            "COMMAND": "[1723729988.039][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.338\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729988.046][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.355\"}"
+        },
+        {
+            "COMMAND": "[1723729988.048][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.355\"}",
+            "RESPONSE": "[1723729988.055][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"626K views\""
+        },
+        {
+            "COMMAND": "[1723729988.057][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.339\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729988.067][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.356\"}"
+        },
+        {
+            "COMMAND": "[1723729988.069][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.356\"}",
+            "RESPONSE": "[1723729988.076][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Sweet Jazz Music & Cozy Coffee Shop Ambience\u2615Relaxing Jazz Instrumental Music for Work, Study, Focus\""
+        },
+        {
+            "COMMAND": "[1723729988.078][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.339\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729988.085][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.357\"}"
+        },
+        {
+            "COMMAND": "[1723729988.087][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.357\"}",
+            "RESPONSE": "[1723729988.095][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"7.2K watching\""
+        },
+        {
+            "COMMAND": "[1723729988.097][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.340\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729988.106][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.358\"}"
+        },
+        {
+            "COMMAND": "[1723729988.108][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.358\"}",
+            "RESPONSE": "[1723729988.115][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Diljit Dosanjh - G.O.A.T. (Official Music Video)\""
+        },
+        {
+            "COMMAND": "[1723729988.117][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.340\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729988.125][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.359\"}"
+        },
+        {
+            "COMMAND": "[1723729988.127][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.42D96C83F7D7904E817515460695D1EA.e.359\"}",
+            "RESPONSE": "[1723729988.135][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"263M views\""
+        },
+        {
+            "COMMAND": "[1723729988.137][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1723729989.496][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1723729989.500][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//input[@id='search']\"}",
+            "RESPONSE": "[1723729989.627][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.365\"}"
+        },
+        {
+            "COMMAND": "[1723729989.630][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND TypeElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.365\",\"text\": \"Games\",\"value\": [ \"G\", \"a\", \"m\", \"e\", \"s\" ]}",
+            "RESPONSE": "[1723729990.065][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE TypeElement"
+        },
+        {
+            "COMMAND": "[1723729990.067][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND TypeElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.365\",\"text\": \"\ue007\",\"value\": [ \"\ue007\" ]}",
+            "RESPONSE": "[1723729990.202][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE TypeElement"
+        },
+        {
+            "COMMAND": "[1723729990.205][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//ytd-item-section-renderer[@class='style-scope ytd-section-list-renderer']\"}",
+            "RESPONSE": "[1723729990.227][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//ytd-item-section-renderer[@class='style-scope ytd-section-list-renderer']\"}(Session info: chrome=127.0.6533.101)"
+        },
+        {
+            "COMMAND": "[1723729990.744][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//ytd-item-section-renderer[@class='style-scope ytd-section-list-renderer']\"}",
+            "RESPONSE": "[1723729990.750][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//ytd-item-section-renderer[@class='style-scope ytd-section-list-renderer']\"}(Session info: chrome=127.0.6533.101)"
+        },
+        {
+            "COMMAND": "[1723729991.257][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//ytd-item-section-renderer[@class='style-scope ytd-section-list-renderer']\"}",
+            "RESPONSE": "[1723729991.566][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.412\"}"
+        },
+        {
+            "COMMAND": "[1723729991.569][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindElements {\"using\": \"xpath\",\"value\": \"//ytd-video-renderer[@class='style-scope ytd-item-section-renderer']\"}",
+            "RESPONSE": "[1723729991.826][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindElements [ {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.392\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.401\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.413\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.414\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.415\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.416\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.417\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.418\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.419\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.420\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.421\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.422\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.423\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.424\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.425\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.426\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.427\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.428\"} ]"
+        },
+        {
+            "COMMAND": "[1723729991.830][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.392\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729991.931][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.429\"}"
+        },
+        {
+            "COMMAND": "[1723729991.933][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.429\"}",
+            "RESPONSE": "[1723729991.971][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Long Slide Game With Elephant Gorilla Buffalo Hippopotamus Tiger - 3d Animal Game - Funny 3d Animals\""
+        },
+        {
+            "COMMAND": "[1723729991.973][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.392\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729992.040][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.430\"}"
+        },
+        {
+            "COMMAND": "[1723729992.042][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.430\"}",
+            "RESPONSE": "[1723729992.052][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"2.8K watching\""
+        },
+        {
+            "COMMAND": "[1723729992.054][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.401\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729992.065][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.431\"}"
+        },
+        {
+            "COMMAND": "[1723729992.068][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.431\"}",
+            "RESPONSE": "[1723729992.076][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"Car Driving School Simulator: Car Parking School 3D Games! Car Game Android Gameplay\""
+        },
+        {
+            "COMMAND": "[1723729992.078][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.401\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729992.087][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.432\"}"
+        },
+        {
+            "COMMAND": "[1723729992.088][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.432\"}",
+            "RESPONSE": "[1723729992.097][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"70K views\""
+        },
+        {
+            "COMMAND": "[1723729992.099][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.413\",\"using\": \"xpath\",\"value\": \".//yt-formatted-string[@class='style-scope ytd-video-renderer']\"}",
+            "RESPONSE": "[1723729992.106][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.433\"}"
+        },
+        {
+            "COMMAND": "[1723729992.108][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.433\"}",
+            "RESPONSE": "[1723729992.115][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"GAME (Full Video) Shooter Kahlon | Sidhu Moose Wala | Hunny PK Films | Gold Media | 5911 Records\""
+        },
+        {
+            "COMMAND": "[1723729992.117][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND FindChildElement {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.413\",\"using\": \"xpath\",\"value\": \".//span[@class=\\\"inline-metadata-item style-scope ytd-video-meta-block\\\"]\"}",
+            "RESPONSE": "[1723729992.126][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE FindChildElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.434\"}"
+        },
+        {
+            "COMMAND": "[1723729992.128][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] COMMAND GetElementText {\"id\": \"f.BBE2962550126DAE4FC1670F8F77DFD5.d.7AC066975F301518051496396E1E408B.e.434\"}",
+            "RESPONSE": "[1723729992.135][INFO]: [38e03b2cda365b7e59e11abb6ee6e8d6] RESPONSE GetElementText \"195M views\""
+        }
+    ]
+}
